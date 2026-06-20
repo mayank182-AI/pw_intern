@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <title>Form Handling</title>
+    </head>
+    <body>
+        <form method="post" action="./form.php">
+            <input type="text" name="user" placeholder="enter you name" />
+            <br/>
+            <br/>
+            <input type="text" name="email" placeholder="enter your email"/>
+            <br/>
+            <br/>
+            <input type="password" name="password" placeholder="enter you password "/>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="php"><spam>PHP</spam>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="java"><spam>JAVA</spam>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="c++"><spam>C++</spam>
+            <br/>
+            <br/>
+            <input type="checkbox" name="skills[]" value="javascript"><spam>JAVASCRIPT</spam>
+            <br/>
+            <br/>
+            <input type="radio" name="gender" value="male"><spam>Male</spam>
+            <br/>
+            <br/>
+            <input type="radio" name="gender" value="female"><spam>Female</spam>
+            <br/>
+            <br/>
+            <input type="radio" name="gender"><spam>Other</spam>
+            <br/>
+            <br/>
+            <select name="city">
+                <Option val="category">Select you category</Option>
+                <Option val="noida">Noida</Option>
+                <Option val="delhi">Delhi</Option>
+                <Option val="gurugram">Gurugram</Option>
+                <Option val="faridabad">Faridabad</Option>
+            </select>
+            <br/>
+            <br/>
+            <textarea name="bio"></textarea>
+            <br/>
+            <br/>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
